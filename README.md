@@ -2,25 +2,25 @@ PMGSY Scheme Classifier
 
 Automatically classify rural infrastructure projects into the correct Pradhan Mantri Gram Sadak Yojana (PMGSY) scheme using IBM Watsonx.ai AutoAI. This project leverages real-world data from AI Kosh and deploys a machine learning model on IBM Cloud for real-time scheme prediction.
 
- Project Overview
+ *** Project Overview
 
 This project addresses the challenge of manually classifying road and bridge construction projects under various PMGSY schemes (e.g., PMGSY-I, PMGSY-II, RCPLWEA). By using machine learning, we automate this process based on key attributes like project length, cost, construction year, and location.
 
- Tech Stack
+*** Tech Stack
 
 IBM Watsonx.ai Studio (AutoAI)
 IBM Cloud Object Storage
 IBM Watson Deployment (Lite Plan)
 CSV dataset from AI Kosh
 
- Dataset
+*** Dataset
 
 Source: AI Kosh – https://aikosh.indiaai.gov.in/web/datasets/details/pradhan_mantri_gram_sadak_yojna_pmgsy.html
 Format: CSV
 Input Features: Length, Cost, Year, State, District, etc.
 Target Variable: PMGSY_SCHEME
 
- Workflow
+*** Workflow
 
 Dataset uploaded to IBM Watsonx.ai project
 
@@ -35,7 +35,7 @@ Model deployed as an online REST API
 Tested with project data for predictions
 
 
- How to Use
+*** How to Use
 
 Option 1: IBM Watsonx.ai GUI
 
@@ -51,7 +51,7 @@ Save, promote, and deploy the best model
 
 
 
- Future Improvements
+*** Future Improvements
 
 Add more features (e.g., terrain, contractor info)
 
@@ -62,13 +62,13 @@ Expand to other rural infrastructure schemes
 Enable feedback-based retraining for continuous improvement
 
 
- Author
+*** Author
 
 Preetham H S-
 Dayananda Sagar University-
 Department of Computer Science and Engineering
 
- References
+ ***References
 
 AI Kosh PMGSY Dataset-
 IBM Watsonx.ai Documentation-
