@@ -23,28 +23,44 @@ Target Variable: PMGSY_SCHEME
  Workflow
 
 Dataset uploaded to IBM Watsonx.ai project
+
 AutoAI experiment run with PMGSY_SCHEME as the target column
+
 Multiple ML pipelines trained and evaluated
+
 Best model selected and saved
+
 Model deployed as an online REST API
+
 Tested with project data for predictions
+
 
  How to Use
 
 Option 1: IBM Watsonx.ai GUI
+
 Log in to IBM Cloud
+
 Upload dataset as a data asset
+
 Launch AutoAI and select PMGSY_SCHEME as target
+
 Let AutoAI run and rank pipelines
+
 Save, promote, and deploy the best model
+
 
 
  Future Improvements
 
 Add more features (e.g., terrain, contractor info)
+
 Build a simple web UI for non-technical users
+
 Expand to other rural infrastructure schemes
+
 Enable feedback-based retraining for continuous improvement
+
 
  Author
 
