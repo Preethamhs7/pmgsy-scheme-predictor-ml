@@ -37,7 +37,6 @@ Tested with project data for predictions
 
 *** How to Use
 
-Option 1: IBM Watsonx.ai GUI
 
 Log in to IBM Cloud
 
