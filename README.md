@@ -9,30 +9,36 @@ This project addresses the challenge of manually classifying road and bridge con
 *** Tech Stack
 
 IBM Watsonx.ai Studio (AutoAI)
+
 IBM Cloud Object Storage
+
 IBM Watson Deployment (Lite Plan)
+
 CSV dataset from AI Kosh
 
 *** Dataset
 
 Source: AI Kosh – https://aikosh.indiaai.gov.in/web/datasets/details/pradhan_mantri_gram_sadak_yojna_pmgsy.html
+
 Format: CSV
+
 Input Features: Length, Cost, Year, State, District, etc.
+
 Target Variable: PMGSY_SCHEME
 
 *** Workflow
 
-Dataset uploaded to IBM Watsonx.ai project
+1 - Dataset uploaded to IBM Watsonx.ai project
 
-AutoAI experiment run with PMGSY_SCHEME as the target column
+2 - AutoAI experiment run with PMGSY_SCHEME as the target column
 
-Multiple ML pipelines trained and evaluated
+3 - Multiple ML pipelines trained and evaluated
 
-Best model selected and saved
+4 - Best model selected and saved
 
-Model deployed as an online REST API
+5 - Model deployed as an online REST API
 
-Tested with project data for predictions
+6 - Tested with project data for predictions
 
 
 *** How to Use
@@ -40,13 +46,13 @@ Tested with project data for predictions
 
 Log in to IBM Cloud
 
-Upload dataset as a data asset
+1 - Upload dataset as a data asset
 
-Launch AutoAI and select PMGSY_SCHEME as target
+2 - Launch AutoAI and select PMGSY_SCHEME as target
 
-Let AutoAI run and rank pipelines
+3 - Let AutoAI run and rank pipelines
 
-Save, promote, and deploy the best model
+4 - Save, promote, and deploy the best model
 
 
 
@@ -63,12 +69,16 @@ Enable feedback-based retraining for continuous improvement
 
 *** Author
 
-Preetham H S-
-Dayananda Sagar University-
+Preetham H S
+
+Dayananda Sagar University
+
 Department of Computer Science and Engineering
 
  ***References
 
-AI Kosh PMGSY Dataset-
-IBM Watsonx.ai Documentation-
+AI Kosh PMGSY Dataset 
+
+IBM Watsonx.ai Documentation
+
 Government of India PMGSY Portal
